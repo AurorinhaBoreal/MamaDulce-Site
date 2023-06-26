@@ -1,10 +1,16 @@
 /* FONTS */
 
-/* Font Title */
+/* Font Title - LOBSTER */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
 
-/* Font Navbar */
+/* Font Navbar  - BREE SERIF*/
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* Font Contacts Title - ARVO */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/* Font Contacts - JOSEFIN SANS */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Josefin+Sans&display=swap');
 
 body{
     margin: 0;
@@ -16,6 +22,7 @@ body{
     display: flex;
     align-items: center;
 }
+
 .divLogo{
     float: left;
     position: relative;
@@ -46,7 +53,6 @@ body{
 .slogan{
     float: left;
     margin: 3% 5% 3% 7%;
-    /* margin-right: 7%; */
     font-size: 4vmin;
     text-align: center;
 }
@@ -66,7 +72,6 @@ body{
     height: 6vmin;
 }
 
-
 .divIconAccount{
     margin-left: 1%;
     height: 20vmin;
@@ -84,12 +89,12 @@ body{
 
 /* NAVBAR */
 
-
 .divNavbar{
     display: inline-flex;
     margin-top: 1%;
     width: 59vw;
     height: auto;
+    position: sticky;
 }
 
 /* Button Home */
@@ -169,14 +174,53 @@ body{
     font-weight: 400;
 }
 
-hr{
-    height: 2vmin;
-    background-color: #3E9850;
-}
-
-
 /* BODY */
 
 
 
 /* FOOTER */
+
+.divContacts{
+    display: flex;
+    justify-content: center;
+}
+
+.divFollow{
+    margin: 1% 2% 1% 2%;
+    font-size: 1.5vw;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+
+.divSupport{
+    margin: 1% 2% 1% 1%;
+    font-size: 1.5vw;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+
+.contContacts{
+    display: grid;
+    font-family: 'Josefin Sans', serif;
+}
+
+.imgContacts{
+    margin-right: 0.5vw;
+    width: 3vw;
+    height: auto;
+}
+
+p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    line-height: 2vw;
+    margin: 1vw;
+}
+
+/* OTHERS */
+
+hr{
+    height: 2vmin;
+    background-color: #3E9850;
+}
