@@ -45,8 +45,8 @@ body{
 
 .slogan{
     float: left;
-    margin-left: 5%;
-    margin-right: 7%;
+    margin: 3% 5% 3% 7%;
+    /* margin-right: 7%; */
     font-size: 4vmin;
     text-align: center;
 }
