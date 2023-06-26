@@ -210,7 +210,7 @@ body{
     height: auto;
 }
 
-p{
+.Contacts{
     display: flex;
     flex-wrap: wrap;
     align-items: end;
