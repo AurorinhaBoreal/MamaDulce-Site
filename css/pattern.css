@@ -23,7 +23,6 @@ Contact Names */
 body{
     background-color: #F0F3E2;
     margin: 0;
-    /* overflow: hidden; */
 }
 
 /* HEADER */
@@ -108,7 +107,7 @@ body{
     top: 0px;
 }
 
-/* Button Home */
+/* Button Home  */
 .divHome{
     display: flex;
     background-color: #3E9850;
@@ -125,7 +124,7 @@ body{
     height: 4.4vmin;
 }
 
-/* Button Menu */
+/* Button Menu  */
 .divMenu{
     display: flex;
     background-color: #3E9850;
@@ -145,7 +144,7 @@ body{
     font-weight: 400;
 }
 
-/* Button Fidelity */
+/* Button Fidelity  */
 .divFidelity{
     display: flex;
     background-color: #3E9850;
@@ -165,7 +164,7 @@ body{
     font-weight: 400;
 }
 
-/* Button How To Go */
+/* Button How To Go  */
 .divHTG{
     display: flex;
     background-color: #3E9850;
