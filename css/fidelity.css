@@ -1,0 +1,193 @@
+/* FONTS */
+
+/* Font - LOBSTER 
+Used On:
+Site Name */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
+
+/* Font - BREE SERIF
+Used On:
+NavBar text */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* Font - ARVO
+Used On:
+Contact Titles */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/* Font - JOSEFIN SANS
+Used On:
+Contact Names */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Josefin+Sans&display=swap');
+
+body{
+    background-color: #EEE0C4;
+    margin: 0;
+}
+
+/* HEADER */
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.divLogo{
+    float: left;
+    position: relative;
+    width: 30vmin;
+    height: 20vmin;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 3%;
+}
+
+.logo{
+    float: left;
+    position: relative;
+    width: 20vmin;
+}
+
+.title{
+    float: left;
+    position: relative;
+    margin-top: -1%;
+    margin-left: 3%;
+    margin-right: 2%;
+    font-size: 8vmin;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.slogan{
+    float: left;
+    margin: 3% 5% 3% 7%;
+    font-size: 4vmin;
+    text-align: center;
+}
+
+.divIconCart{
+    height: 20vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    margin-left: 5%;
+}
+
+.iconCart{
+    float: left;
+    display: flex;
+    width: 6vmin;
+    height: 6vmin;
+}
+
+.divIconAccount{
+    margin-left: 1%;
+    height: 20vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: end;
+}
+
+.iconAccount{
+    display: flex;
+    align-items: end;
+    width: 6vmin;
+    height: 6vmin;
+}
+
+/* NAVBAR */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+ul{
+    list-style: none;
+    background: #DDA12B;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #E2E0EB;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bree Serif', serif;;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: #DDA12B;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background: #b48323;
+    color: #EEE0C4;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* FOOTER */
+
+.divContacts{
+    display: flex;
+    justify-content: center;
+}
+
+.divFollow{
+    margin: 1% 2% 1% 2%;
+    font-size: 1vw;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+
+.divSupport{
+    margin: 1% 2% 1% 1%;
+    font-size: 1vw;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+
+.contContacts{
+    display: grid;
+    font-family: 'Josefin Sans', serif;
+}
+
+.imgContacts{
+    margin-right: 0.5vw;
+    width: 2vw;
+    height: auto;
+}
+
+.Contacts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    line-height: 1vw;
+    margin: 0.5vw;
+}
+
+/* OTHERS */
+
+hr{
+    height: 2vmin;
+    background-color: #DDA12B;
+}
