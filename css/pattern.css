@@ -98,90 +98,51 @@ body{
 
 /* NAVBAR */
 
-.divNavbar{
-    display: inline-flex;
-    margin-top: 1%;
-    width: 58.3vw;
-    height: auto;
-    position: sticky;
-    top: 0px;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
 }
 
-/* Button Home  */
-.divHome{
-    display: flex;
-    background-color: #3E9850;
-    padding: 0% 1vw;
-    height: 6vmin;
-    border: 0;
-    align-items: center;
-    justify-content: center;
-
+ul{
+    list-style: none;
+    background: #3E9850;
 }
 
-#HomeIcon{
-    width: auto;
-    height: 4.4vmin;
+ul li{
+    display: inline-block;
+    position: relative;
 }
 
-/* Button Menu  */
-.divMenu{
-    display: flex;
-    background-color: #3E9850;
-    height: 6vmin;
-    border: 0;
-    padding: 0% 27%;
-    width: 10vw;
-    height: auto;
-
-    white-space: nowrap;
-    align-items: center;
-    justify-content: center;
-    line-height: 6vmin;
+ul li a{
+    display: block;
+    padding: 20px 25px;
     color: #E2E0EB;
-    font-family: 'Bree Serif', serif;
-    font-size: 4.4vmin;
-    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Bree Serif', serif;;
+    font-size: 20px;
 }
 
-/* Button Fidelity  */
-.divFidelity{
-    display: flex;
-    background-color: #3E9850;
-    height: 6vmin;
-    border: 0;
-    padding: 0% 27%;
-    width: 10vw;
-    height: auto;
-
-    white-space: nowrap;
-    align-items: center;
-    justify-content: center;
-    line-height: 6vmin;
-    color: #E2E0EB;
-    font-family: 'Bree Serif', serif;
-    font-size: 4.4vmin;
-    font-weight: 400;
+ul li ul.dropdown li{
+    display: block;
 }
 
-/* Button How To Go  */
-.divHTG{
-    display: flex;
-    background-color: #3E9850;
-    height: 6vmin;
-    border: 0;
-    padding: 0% 27%;
-    width: 10vw;
-    height: auto;
+ul li ul.dropdown{
+    width: 100%;
+    background: #3E9850;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
 
-    white-space: nowrap;
-    align-items: center;
-    justify-content: center;
-    line-height: 6vmin;
-    color: #E2E0EB;
-    font-family: 'Bree Serif', serif;
-    font-size: 4.4vmin;
-    font-weight: 400;
+ul li a:hover{
+    background: #2a6837;
+    color: #D9EEC4;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
 }
 
 /* FOOTER */

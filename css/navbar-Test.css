@@ -42,3 +42,95 @@ ul li a:hover{
 ul li:hover ul.dropdown{
     display: block;
 }
+
+
+
+/* ------------------------------------------------------------------------- */
+
+
+
+.divNavbar{
+    display: inline-flex;
+    margin-top: 1%;
+    width: 58.3vw;
+    height: auto;
+    position: sticky;
+    top: 0px;
+}
+
+/* Button Home  */
+.divHome{
+    display: flex;
+    background-color: #3E9850;
+    padding: 0% 1vw;
+    height: 6vmin;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#HomeIcon{
+    width: auto;
+    height: 4.4vmin;
+}
+
+/* Button Menu  */
+.divMenu{
+    display: flex;
+    background-color: #3E9850;
+    height: 6vmin;
+    border: 0;
+    padding: 0% 27%;
+    width: 10vw;
+    height: auto;
+
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 6vmin;
+    color: #E2E0EB;
+    font-family: 'Bree Serif', serif;
+    font-size: 4.4vmin;
+    font-weight: 400;
+}
+
+/* Button Fidelity  */
+.divFidelity{
+    display: flex;
+    background-color: #3E9850;
+    height: 6vmin;
+    border: 0;
+    padding: 0% 27%;
+    width: 10vw;
+    height: auto;
+
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 6vmin;
+    color: #E2E0EB;
+    font-family: 'Bree Serif', serif;
+    font-size: 4.4vmin;
+    font-weight: 400;
+}
+
+/* Button How To Go  */
+.divHTG{
+    display: flex;
+    background-color: #3E9850;
+    height: 6vmin;
+    border: 0;
+    padding: 0% 27%;
+    width: 10vw;
+    height: auto;
+
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 6vmin;
+    color: #E2E0EB;
+    font-family: 'Bree Serif', serif;
+    font-size: 4.4vmin;
+    font-weight: 400;
+}
