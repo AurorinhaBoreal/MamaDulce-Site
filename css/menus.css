@@ -53,13 +53,13 @@ Food Title */
     width: 50vw;
     height: auto;
     margin: 2vw 2vw 1vw 2vw;
-    font-size: 2.2vw;
+    font-size: 2vw;
     text-align: justify;
     font-family: 'Josefin Sans', serif;
 }
 
 .divButtons{
-    margin: 2vw 3vw 0vw 5vw;
+    margin: 1.5vw 3vw 0vw 5vw;
     display: flex;
     align-items: center;
     width: auto;
