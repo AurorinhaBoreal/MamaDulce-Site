@@ -1,226 +1,75 @@
 /* FONTS */
 
-/* Font Title - LOBSTER */
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
-
-/* Font Navbar  - BREE SERIF*/
+/* Font - BREE SERIF
+Used On:
+Button Text */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
-/* Font Contacts Title - ARVO */
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-
-/* Font Contacts - JOSEFIN SANS */
+/* Font - JOSEFIN SANS
+Used On:
+Menu's Description */
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Josefin+Sans&display=swap');
-
-body{
-    margin: 0;
-}
-
-/* HEADER */
-
-.header{
-    display: flex;
-    align-items: center;
-}
-
-.divLogo{
-    float: left;
-    position: relative;
-    width: 30vmin;
-    height: 20vmin;
-    width: fit-content;
-    height: fit-content;
-    margin-left: 3%;
-}
-
-.logo{
-    float: left;
-    position: relative;
-    width: 20vmin;
-}
-
-.title{
-    float: left;
-    position: relative;
-    margin-top: -1%;
-    margin-left: 3%;
-    margin-right: 2%;
-    font-size: 8vmin;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-}
-
-.slogan{
-    float: left;
-    margin: 3% 5% 3% 7%;
-    font-size: 4vmin;
-    text-align: center;
-}
-
-.divIconCart{
-    height: 20vmin;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: end;
-    margin-left: 5%;
-}
-
-.iconCart{
-    float: left;
-    display: flex;
-    width: 6vmin;
-    height: 6vmin;
-}
-
-.divIconAccount{
-    margin-left: 1%;
-    height: 20vmin;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: end;
-}
-
-.iconAccount{
-    display: flex;
-    align-items: end;
-    width: 6vmin;
-    height: 6vmin;
-}
-
-/* NAVBAR */
-
-.divNavbar{
-    display: inline-flex;
-    margin-top: 1%;
-    width: 59vw;
-    height: auto;
-    position: sticky;
-}
-
-/* Button Home */
-.divHome{
-    display: flex;
-    background-color: #3E9850;
-    padding: 0% 1vw;
-    height: 6vmin;
-    border: 0;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#HomeIcon{
-    width: auto;
-    height: 4.4vmin;
-}
-
-/* Button Menu */
-.divMenu{
-    display: flex;
-    background-color: #3E9850;
-    height: 6vmin;
-    border: 0;
-    padding: 0% 27%;
-    width: 10vw;
-    height: auto;
-
-    white-space: nowrap;
-    align-items: center;
-    justify-content: center;
-    line-height: 6vmin;
-    color: #E2E0EB;
-    font-family: 'Bree Serif', serif;
-    font-size: 4.4vmin;
-    font-weight: 400;
-}
-
-/* Button Fidelity */
-.divFidelity{
-    display: flex;
-    background-color: #3E9850;
-    height: 6vmin;
-    border: 0;
-    padding: 0% 27%;
-    width: 10vw;
-    height: auto;
-
-    white-space: nowrap;
-    align-items: center;
-    justify-content: center;
-    line-height: 6vmin;
-    color: #E2E0EB;
-    font-family: 'Bree Serif', serif;
-    font-size: 4.4vmin;
-    font-weight: 400;
-}
-
-/* Button How To Go */
-.divHTG{
-    display: flex;
-    background-color: #3E9850;
-    height: 6vmin;
-    border: 0;
-    padding: 0% 27%;
-    width: 10vw;
-    height: auto;
-
-    white-space: nowrap;
-    align-items: center;
-    justify-content: center;
-    line-height: 6vmin;
-    color: #E2E0EB;
-    font-family: 'Bree Serif', serif;
-    font-size: 4.4vmin;
-    font-weight: 400;
-}
 
 /* BODY */
 
+.divContent{
+    margin: 2vw;
+}
 
-
-/* FOOTER */
-
-.divContacts{
+.divPies{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1.5vw;
 }
 
-.divFollow{
-    margin: 1% 2% 1% 2%;
+.divSnacks{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5vw;
+}
+
+.divDrinks{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5vw;
+}
+
+.divDesserts{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5vw;
+}
+
+.menuPicture{
+    width: 25vw;
+}
+
+.descMenu{
+    width: 40vw;
+    height: auto;
+    margin: 1vw 2vw 1vw 2vw;
     font-size: 1.5vw;
-    font-family: 'Arvo', serif;
-    font-weight: bold;
-}
-
-.divSupport{
-    margin: 1% 2% 1% 1%;
-    font-size: 1.5vw;
-    font-family: 'Arvo', serif;
-    font-weight: bold;
-}
-
-.contContacts{
-    display: grid;
+    text-align: justify;
     font-family: 'Josefin Sans', serif;
 }
 
-.imgContacts{
-    margin-right: 0.5vw;
-    width: 3vw;
-    height: auto;
-}
-
-.Contacts{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: end;
-    line-height: 2vw;
+.divButton{
     margin: 1vw;
+    display: flex;
+    align-items: center;
 }
 
-/* OTHERS */
+.buttonMenu{
+    height: 3vw;
+    width: 15vw;
+    padding: 1vw;
+    line-height: 1vw;
 
-hr{
-    height: 2vmin;
-    background-color: #3E9850;
+    background-color: #3e9850;
+    color: #E2E0EB;
+    border: none;
+    border-radius: 5%;
+    font-size: 1.5vw;
+    font-family: 'Bree Serif', serif;
+    
 }
